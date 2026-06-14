@@ -193,6 +193,13 @@
   object-fit: cover;
 }
 
+/* 手机端样式 */
+@media (max-width: 768px) {
+  .vp-doc img {
+    max-width: 100%;
+  }
+}
+
 /* 图片放大 20% */
 .vp-doc img:hover {
   transform: scale(1.02);

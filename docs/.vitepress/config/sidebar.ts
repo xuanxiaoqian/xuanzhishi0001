@@ -1,20 +1,12 @@
 import { DefaultTheme } from 'vitepress'
 
 export const sidebarConfig: DefaultTheme.Sidebar = {
-  ['/pages/test/']: [
+  ['/pages/交易/']: [
     {
       items: [
         {
-          text: "测试",
-          link: "/pages/test/1-测试"
-        },
-        {
-          text: "我的",
-          link: "/pages/test/2-我的"
-        },
-        {
-          text: "文章",
-          link: "/pages/test/3-文章"
+          text: "盯盘程序",
+          link: "/pages/交易/1-盯盘程序"
         }
       ]
     }
