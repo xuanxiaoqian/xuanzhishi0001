@@ -15,6 +15,10 @@ export const sidebarConfig: DefaultTheme.Sidebar = {
         {
           text: "交易本质",
           link: "/pages/交易/心得/3-交易本质"
+        },
+        {
+          text: "订单管理",
+          link: "/pages/交易/心得/4-订单管理"
         }
       ]
     }
